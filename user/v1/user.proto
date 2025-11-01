@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package user.v1;
+
+option go_package = "userv1";
+
+message User {
+  string id = 1;
+  string email = 2;
+  string full_name = 3;
+}

@@ -1,0 +1,3 @@
+version: v1
+module:
+  name: buf.build/github/alexsibrin/common-proto
